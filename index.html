@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneakers</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kumbh+Sans">
+</head>
+
+<body>
+    <main>
+
+        <div class="contrast"></div>
+        <header>
+            
+            <nav>
+                <div id="menu">
+                    <ul>
+                        <li>
+                            <a href="#">Collections</a>
+                        </li>
+                        <li>
+                            <a href="#">Men</a>
+                        </li>
+                        <li>
+                            <a href="#">Women</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="menu hidden">
+                    <ul>
+                        <li>
+                            <img src="icon-close.svg" alt="menu" id="close-icon">
+                        </li>
+                        <li>
+                            <a href="#">Collections</a>
+                        </li>
+                        <li>
+                            <a href="#">Men</a>
+                        </li>
+                        <li>
+                            <a href="#">Women</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <img src="icon-menu.svg" alt="menu" id="menu-icon">
+            </nav>
+
+         
+
+            <div id="logo-div">
+                <img src="logo.svg" alt="menu">
+            </div>
+
+            <div id="head-div">
+                <div class="cart-number">
+                    <h3 class="cart-h3"></h3>
+                </div>
+                    <img  src="icon-cart.svg" id="cart" alt="icon-cart">
+                    
+                    <img  src="image-avatar.png" id="profile-pic" alt="profile-pic">
+            </div>
+        </header>
+
+        <section>
+            <div class="cart-list cart-hide">
+                <div class="cart-check">
+                    <h3 class="cart-word">Cart</h3>
+                    <hr>
+                   
+                    <div class="price-div">
+                        <img class="price-product" src="image-product-1-thumbnail.jpg" alt="Product">
+
+                       <div>
+                        <h3 id="product-name">Autumn Limited Edition</h3>
+                            <span class="price-span"></span> <span class="num-span"></span> <span class="total-price"></span>
+                        </div>
+                        <img class="delete" src="icon-delete.svg" alt="delete">
+                    </div>
+
+                    <button class="checkout">Checkout</button>
+                </div>
+                <div class="cart-empty">
+                    <h3>Your cart is empty</h3>
+                </div>
+            </div>
+            
+            <div id="product">
+               
+                <div class="left-arr"></div>
+                <div class="right-arr"></div>
+
+                <div class="prod-images">
+                    <div><img src="image-product-1-thumbnail.jpg" alt="p1"><span class="img-span"></span></div>
+                    <div><img src="image-product-2-thumbnail.jpg" alt="p2"><span class="img-span"></span></div>
+                    <div><img src="image-product-3-thumbnail.jpg" alt="p3"><span class="img-span"></span></div>
+                    <div><img src="image-product-4-thumbnail.jpg" alt="p4"><span class="img-span"></span></div>
+                </div>
+            </div>
+
+            <div class="details">
+                <div class="details-text">
+                    <h3>
+                        Sneaker Company
+                    </h3>
+    
+                    <h2>
+                        Fall Limited Edition Sneakers
+                    </h2>
+    
+                    <p>
+                        These low-profile sneakers are your perfect casual wear companion.
+                        Featuring a durable rubber outer sole, they'll withstand everything
+                        the weather can offer.
+                    </p>
+                </div>
+
+                <div class="details-price">
+                    <div class="price">
+                        <h1>
+                            $125.00
+                        </h1>
+
+                        <h3>
+                            50%
+                        </h3>
+                    </div>
+
+                    <div class="prev-price">
+                        $250.00
+                    </div>
+
+                    </div>
+
+                   <div class="price-add">
+                    <div class="qty">
+                        <div class="decr"></div>
+                        <div class="num">0</div>
+                        <div class="incr"></div>
+                    </div>
+
+                    <div class="add">
+                        <img src="icon-cart.svg" alt="cart">
+                        <h3>Add to cart</h3>
+                    </div>
+                   </div>
+            
+            </div>
+            <div class="viewbox">
+                <div class="close-prod"></div>
+                <div class="left-arr"></div>
+                <div class="right-arr"></div>
+                <div class="prod-images">
+                    <div><img src="image-product-1-thumbnail.jpg" alt="p1"><span class="img-span"></span></div>
+                    <div><img src="image-product-2-thumbnail.jpg" alt="p2"><span class="img-span"></span></div>
+                    <div><img src="image-product-3-thumbnail.jpg" alt="p3"><span class="img-span"></span></div>
+                    <div><img src="image-product-4-thumbnail.jpg" alt="p4"><span class="img-span"></span></div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
